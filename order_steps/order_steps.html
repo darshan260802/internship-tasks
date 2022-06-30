@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Order Steps</title>
+    <link rel="stylesheet" href="order_steps.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="steps">
+        <div class="step">
+          <div id="textDiv1">
+            <span class="text" id="text1">1</span>
+            <p>Order Placed</p>
+          </div>
+          <div class="bar">
+            <div id="prog1"></div>
+          </div>
+        </div>
+        <div class="step">
+          <div id="textDiv2">
+            <span class="text" id="text2">2</span>
+            <p>Order Ready</p>
+          </div>
+          <div class="bar">
+            <div id="prog2"></div>
+          </div>
+        </div>
+        <div class="step">
+          <div id="textDiv3">
+            <span class="text" id="text3">3</span>
+            <p>Out For Delivery</p>
+          </div>
+          <div class="bar">
+            <div id="prog3"></div>
+          </div>
+        </div>
+        <div class="step">
+          <div id="textDiv4">
+            <span class="text" id="text4">4</span>
+            <p>Delivered</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn">
+
+        <button onclick="prevStep()">Prev Step</button>
+        <button onclick="nextStep()">Next Step</button>
+      </div>
+    </div>
+    <script src="order_steps.js"></script>
+  </body>
+</html>
